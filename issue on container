@@ -1,0 +1,48 @@
+Connecting to (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=0.0.0.0)(PORT=9215)))
+STATUS of the LISTENER
+------------------------
+Alias                     LISTENER
+Version                   TNSLSNR for Linux: Version 19.0.0.0.0 - Production
+Start Date                08-FEB-2024 11:21:24
+Uptime                    0 days 0 hr. 0 min. 0 sec
+Trace Level               off
+Security                  ON: Local OS Authentication
+SNMP                      OFF
+Listener Parameter File   /opt/oracle/product/19c/dbhome_1/network/admin/listener.ora
+Listener Log File         /opt/oracle/product/19c/dbhome_1/network/log/listener.log
+Listening Endpoints Summary...
+  (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=0.0.0.0)(PORT=9215)))
+The listener supports no services
+The command completed successfully
+
+SQL*Plus: Release 19.0.0.0.0 - Production on Thu Feb 8 11:21:24 2024
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle.  All rights reserved.
+
+Connected to an idle instance.
+
+SQL> ORA-01078: failure in processing system parameters
+LRM-00109: could not open parameter file '/opt/oracle/product/19c/dbhome_1/dbs/initORCL.ora'
+SQL> Disconnected
+The Oracle base remains unchanged with value /opt/oracle
+#####################################
+########### E R R O R ###############
+DATABASE SETUP WAS NOT SUCCESSFUL!
+Please check output for further info!
+########### E R R O R ###############
+#####################################
+The following output is now a tail of the alert.log:
+tail: cannot open '/opt/oracle/diag/rdbms/*/*/trace/alert*.log' for reading: Permission denied
+tail: no files remaining
+
+
+
+
+
+
+
+
+
+#########################################################################################################################################
+
